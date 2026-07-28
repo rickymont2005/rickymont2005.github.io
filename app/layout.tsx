@@ -1,14 +1,8 @@
 import type { Metadata } from "next";
-import { headers } from "next/headers";
 import "./globals.css";
 
-export async function generateMetadata(): Promise<Metadata> {
-  const requestHeaders = await headers();
-  const host = requestHeaders.get("x-forwarded-host") ?? requestHeaders.get("host") ?? "localhost";
-  const protocol = requestHeaders.get("x-forwarded-proto") ?? (host.startsWith("localhost") ? "http" : "https");
-
-  return {
-    metadataBase: new URL(`${protocol}://${host}`),
+export const metadata: Metadata = {
+    metadataBase: new URL("https://rickymont2005.github.io"),
     applicationName: "Ricardo Montano | Mechanical Engineering Portfolio",
     title: "Ricardo Montano | Mechanical Engineering Portfolio",
     description: "Mechanical engineering portfolio of Ricardo Montano, UC Irvine student focused on aerospace hardware, CAD, manufacturing, fabrication, test, and integration.",
@@ -33,8 +27,7 @@ export async function generateMetadata(): Promise<Metadata> {
       description: "CAD, manufacturing, aerospace hardware, test, and integration.",
       images: ["/og.png"],
     },
-  };
-}
+};
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (

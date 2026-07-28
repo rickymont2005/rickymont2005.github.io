@@ -21,6 +21,23 @@ Open the local address printed in the terminal.
 npm run build
 ```
 
+## Publish with GitHub Pages
+
+This project is configured for the user site `https://rickymont2005.github.io`.
+
+1. Push the project to `https://github.com/rickymont2005/rickymont2005.github.io` on the `main` branch.
+2. In the GitHub repository, open **Settings > Pages**.
+3. Under **Build and deployment**, choose **GitHub Actions** as the source.
+4. Open the **Actions** tab and wait for **Deploy portfolio to GitHub Pages** to finish.
+
+Every later push to `main` automatically rebuilds and republishes the portfolio. The deployment workflow installs locked dependencies, creates the static site in `out/`, and publishes that artifact to GitHub Pages.
+
+To verify the GitHub Pages export locally:
+
+```bash
+npm run build:github
+```
+
 ## Edit the site
 
 - Main page content and project data: `app/page.tsx`
