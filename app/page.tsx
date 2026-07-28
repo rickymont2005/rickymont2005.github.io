@@ -233,7 +233,10 @@ export default function Home() {
   return (
     <main>
       <nav className="site-nav" aria-label="Primary navigation">
-        <a className="monogram" href="#top" aria-label="Ricardo Montano, back to top">RM</a>
+        <a className="site-brand" href="#top" aria-label="Ricardo Montano | Mechanical Engineering Portfolio, back to top">
+          <span>Ricardo Montano</span>
+          <span>Mechanical Engineering Portfolio</span>
+        </a>
         <div className="nav-links">
           <a href="#about">About</a>
           <a href="#experience">Experience</a>
@@ -247,7 +250,10 @@ export default function Home() {
         <div className="hero-grid" aria-hidden="true" />
         <div className="hero-copy">
           <p className="availability"><span /> Seeking 2027 early-career opportunities</p>
-          <h1>Ricardo<br /><span>Montano</span></h1>
+          <h1>
+            <span className="hero-name">Ricardo Montano</span>
+            <span className="hero-portfolio">Mechanical Engineering Portfolio</span>
+          </h1>
           <p className="hero-role">Mechanical Engineering Student <span>at UC Irvine</span></p>
           <p className="hero-statement">
             I build mechanical systems from CAD to hardware - combining design, manufacturing, fabrication, and test to deliver reliable aerospace and electromechanical assemblies.
@@ -344,7 +350,7 @@ export default function Home() {
           <a className="button button-outline" href="/Ricardo-Montano-Resume.pdf" download>Download résumé ↓</a>
         </div>
         <footer>
-          <span>Ricardo Montano</span>
+          <span>Ricardo Montano | Mechanical Engineering Portfolio</span>
           <span>Mechanical Engineering · UC Irvine · Class of 2027</span>
           <a href="#top">Back to top ↑</a>
         </footer>

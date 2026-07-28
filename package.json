@@ -1,5 +1,6 @@
 {
-  "name": "ricardo-montano-engineering-portfolio",
+  "name": "ricardomontanoengineeringportfolio",
+  "productName": "RicardoMontanoEngineeringPortfolio",
   "version": "0.1.0",
   "private": true,
   "engines": {

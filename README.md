@@ -1,6 +1,8 @@
-# Ricardo Montano - Engineering Portfolio
+# Ricardo Montano | Mechanical Engineering Portfolio
 
 A responsive single-page portfolio for Ricardo Montano, a UC Irvine Mechanical Engineering student pursuing 2027 early-career roles in aerospace, mechanical design, manufacturing, test, and integration.
+
+Technical project name: `RicardoMontanoEngineeringPortfolio`
 
 ## Run locally
 
@@ -34,9 +36,11 @@ Project details are stored in the `projects` array in `app/page.tsx`. Each proje
 
 Search `app/page.tsx` for the current email address and LinkedIn URL. Update both the visible text and the corresponding `mailto:` or `href` value.
 
-## Deploy
+## Publishing and editing access
 
-The project is configured for OpenAI Sites with the included `.openai/hosting.json` and vinext build. It can also be connected to a compatible Cloudflare deployment workflow after running the production build.
+The published website is publicly viewable and contains no visitor accounts, admin controls, editing forms, or content-management interface. Content changes are made only from the private project files by the site owner.
+
+The included deployment configuration connects the private source project to its production website. Run the production build before publishing a new version.
 
 ## Accessibility and performance
 
