@@ -45,7 +45,7 @@ npm run build:github
 - SEO and social metadata: `app/layout.tsx`
 - Project images: `public/projects/`
 - Downloadable resume: `public/Ricardo-Montano-Resume.pdf`
-- Social preview: `public/og.png`
+- Social preview: `public/og-gears.png`
 
 Project details are stored in the `projects` array in `app/page.tsx`. Each project includes its objective, individual contribution, tools, process, result, engineering decisions, and image gallery.
 

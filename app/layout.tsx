@@ -19,13 +19,13 @@ export const metadata: Metadata = {
       description: "CAD, manufacturing, aerospace hardware, test, and integration.",
       type: "website",
       siteName: "Ricardo Montano | Mechanical Engineering Portfolio",
-      images: [{ url: "/og.png", width: 1200, height: 630, alt: "Ricardo Montano | Mechanical Engineering Portfolio" }],
+      images: [{ url: "/og-gears.png", width: 1200, height: 630, alt: "Ricardo Montano | Mechanical Engineering Portfolio" }],
     },
     twitter: {
       card: "summary_large_image",
       title: "Ricardo Montano | Mechanical Engineering Portfolio",
       description: "CAD, manufacturing, aerospace hardware, test, and integration.",
-      images: ["/og.png"],
+      images: ["/og-gears.png"],
     },
 };
 

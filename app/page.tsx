@@ -86,10 +86,10 @@ const projects: Project[] = [
       "Positioned control hardware around the available internal geometry and linkage paths.",
     ],
     images: [
-      { src: "/projects/image7.webp", alt: "Assembled white RC aircraft" },
-      { src: "/projects/image10.webp", alt: "Top view of the RC aircraft assembly" },
-      { src: "/projects/image13.webp", alt: "Servos prepared for RC aircraft integration" },
-      { src: "/projects/image15.webp", alt: "Servo installed inside the RC aircraft structure" },
+      { src: "/projects/image7-enhanced.webp", alt: "Assembled white RC aircraft" },
+      { src: "/projects/image10-enhanced.webp", alt: "Top view of the RC aircraft assembly" },
+      { src: "/projects/image13-enhanced.webp", alt: "Servos prepared for RC aircraft integration" },
+      { src: "/projects/image15-enhanced.webp", alt: "Servo installed inside the RC aircraft structure" },
     ],
   },
   {
@@ -113,7 +113,7 @@ const projects: Project[] = [
       "Adjusted controls with awareness of center of gravity and the robot's physical response.",
     ],
     images: [
-      { src: "/projects/image14.webp", alt: "Fabricated autonomous competition robot" },
+      { src: "/projects/image14-enhanced.webp", alt: "Fabricated autonomous competition robot" },
       { src: "/projects/image22.webp", alt: "SolidWorks model of the autonomous robot" },
       { src: "/projects/image1.webp", alt: "Underside CAD view of the autonomous robot" },
       { src: "/projects/image2.webp", alt: "Pneumatic propulsion system diagram" },
@@ -140,9 +140,9 @@ const projects: Project[] = [
       "Iterated the nose-cone fit from physical tolerance checks rather than relying on nominal CAD alone.",
     ],
     images: [
-      { src: "/projects/image12.webp", alt: "Ricardo holding the rocket before launch" },
-      { src: "/projects/image19.webp", alt: "Completed Level 1 rocket on the launch field" },
-      { src: "/projects/image5.webp", alt: "Rocket fin and motor-mount assembly during fabrication" },
+      { src: "/projects/image12-enhanced.webp", alt: "Ricardo holding the rocket before launch" },
+      { src: "/projects/image19-enhanced.webp", alt: "Completed Level 1 rocket on the launch field" },
+      { src: "/projects/image5-enhanced.webp", alt: "Rocket fin and motor-mount assembly during fabrication" },
       { src: "/projects/image16.webp", alt: "SolidWorks model of the custom rocket nose cone" },
     ],
   },
